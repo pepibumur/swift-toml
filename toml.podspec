@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = "Read/Modify/Write your Xcode projects"
   s.homepage         = "https://github.com/pepibumur/swift-toml"
   s.license          = 'MIT'
+  s.authors          = {}
   s.source           = { :git => "https://github.com/pepibumur/swift-toml.git", :tag => s.version.to_s }
   s.requires_arc = true
 
