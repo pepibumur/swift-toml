@@ -78,7 +78,7 @@ extension String {
         let nss = (s as NSString)
 
         for match in matches {
-            let m0 = nss.substring(with: match.rangeAt(0))
+            let m0 = nss.substring(with: match.range(at: 0))
             s = s.replacingOccurrences(of: m0, with: "")
         }
 
